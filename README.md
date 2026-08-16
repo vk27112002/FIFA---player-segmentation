@@ -361,12 +361,26 @@ An example of the final cluster summary is:
 
 ---
 
-# 🏷️ Cluster Naming
-
-K-Means produces numerical cluster IDs such as:
-
-```text
-Cluster 0
-Cluster 1
-Cluster 2
-...
+17,954 Players
+        ↓
+29 Football Attributes
+        ↓
+StandardScaler
+        ↓
+PCA — 8 Components
+        ↓
+~90% Variance Retained
+        ↓
+K-Means Clustering
+        ↓
+Hopkins = 0.7903
+        ↓
+Silhouette = 0.298
+        ↓
+ARI = 0.994–1.000
+        ↓
+Kruskal-Wallis H = 4536.9518
+        ↓
+p < 0.001
+        ↓
+Interpretable Football Archetypes
